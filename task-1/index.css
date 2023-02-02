@@ -1,0 +1,105 @@
+#container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+}
+#pic{
+    width: 50%;
+}
+#pic img{
+    width: 95%;
+}
+#form{
+    width: 50%;
+    text-align: center;
+}
+#form img{
+    width: 80%;
+    margin-top: -8%;
+    
+}
+#form h1{
+    font-size:56px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    font-weight: bolder;
+    margin-top: -5%;
+}
+#email,#mob{
+    width: 80%;
+    height: 40px;
+    padding: 1%;
+    border: 2px solid rgb(110, 110, 110);
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#mob select{
+    border: none;
+    font-size: 20px;
+    height:100%;
+    width: 15%;
+}
+#mob input{
+    border: none;
+    font-size: large;
+    height: 100%;
+    width:80%
+}
+#btn{
+    width: 82%;
+    /* height: 30px; */
+    border: 1px solid black;
+    color: rgb(205, 208, 211);
+    background-color: rgb(74, 74, 74);
+    font-size: large;
+    margin-top: 10px;
+    border-radius: 4px ;
+    padding: 1.5%;
+}
+
+@media only screen and (max-width: 900px) {
+    /* For tablets: */
+    #container{
+      display: inline;
+    }
+    #pic,#form{
+        width: 100%;
+    }
+   
+  }
+  @media only screen and (max-width: 490px) {
+    /* For tablets: */
+    #form h1{
+    font-size: 30px;
+  }
+   button{
+    font-size: 10px;
+    height: 30px;
+   }
+   #mob{
+    display: flex;
+   }
+   #mob input{
+    font-size: 20px;
+   }
+   #mob select{
+    width: 20%;
+    font-size: 15px;
+   }
+  }
+ #card{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+ }
