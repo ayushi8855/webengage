@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#car{
+        width: 250px;
+        background-color: antiquewhite;
+        margin: 10px;
+        padding: 20px;
+}
+h1{
+    border-bottom: 1px solid rgb(30, 30, 30);
+}
+#catch{
+    font-style: italic;
+    color: rgb(85, 105, 17);
+  text-align: center;
+}
